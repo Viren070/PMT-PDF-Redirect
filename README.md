@@ -1,2 +1,3 @@
-# PMT-PDF-Redirect
-Remove PMT's useless PDF viewer which barely works and redirects you to the original pdf file without any ads
+# PDF Redirect 
+
+Remove PDF Viewers and redirect you to the original file. Currently supports physicsandmathstutor.com and alevelmathsrevision.com

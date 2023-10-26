@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "PMT PDF Link Redirect",
-    "version": "1.1",
-    "description": "Remove PMT's useless PDF viewer which barely works and redirects you to the original pdf file without any ads",
+    "name": "PDF Redirect",
+    "version": "1.2",
+    "description": "Remove useless PDF viewers which barely works and redirect you to the original PDF file.",
     "permissions": ["webNavigation"],
     "background": {
       "service_worker": "background.js",
@@ -10,9 +10,8 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://www.physicsandmathstutor.com/*"],
-        "js": ["content.js"],
-        "run_at": "document_end"
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
       }
     ]
   }
